@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+{% block homeactive %} active {% endblock homeactive %}
+{% block body %}
+<div class="container my-4">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Welcome to iCoder</h1>
+        <h5 class="col-md-8 fs-4 my-3">Check out the examples below for how you can remix and restyle it to your
+            liking. Using a series of utilities, you can create this jumbotron, just like the one in
+            previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your
+            liking.</h5>
+        <a class="btn btn-dark " href="/blog" role="button">Go to Blog</a>
+    </div>
+</div>
+
+
+<div class="container">
+    <h2>Popular Blogpost:</h2>
+    <div class="row g-0 border rounded overflow-hidden flex-md-row my-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4  d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">World</strong>
+            <h3 class="mb-0">Saaho</h3>
+            <div class="mb-1 text-muted">Nov 12</div>
+            <p class="card-text mb-auto fs-5">Saaho (transl. Let victory be yours) is a 2019 Indian action thriller film written and directed by Sujeet.</p>
+            <a href="/blog" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+
+        </div>
+    </div>
+    <div class="row g-0 border rounded overflow-hidden flex-md-row my-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4  d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">World</strong>
+            <h3 class="mb-0">Baahubali</h3>
+            <div class="mb-1 text-muted">Nov 12</div>
+            <p class="card-text mb-auto fs-5">Baahubali: The Beginning is a 2015 Indian epic action film directed by S.S Rajamouli and produced by Shobu Yarlagadda and Prasad Devineni under Arka Media Works.</p>
+            <a href="/blog" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+
+        </div>
+    </div>
+</div>
+{% endblock body %}
